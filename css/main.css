@@ -1,5 +1,5 @@
 body {
-  font-family: "Inter", sans-serif;
+  font-family: "Chakra Petch", sans-serif;
   background-color: #D2D4DA;
   color: var(--main-text-color);
 }
@@ -35,5 +35,102 @@ img {
 }
 
 :root {
-  --main-text-color: black;
+  --main-text-color: #101010;
+  --hover-color: #006360;
+  --cubik: cubic-bezier(.51, 0, .54, .99);
+}
+
+.image-wrapper {
+  width: 242px;
+}
+
+.main-wrap {
+  padding-top: 51px;
+  padding-bottom: 150px;
+}
+
+.main-image {
+  margin-bottom: 32px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+
+.column-one__line {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: var(--main-text-color);
+  margin-bottom: 18px;
+}
+
+.list-one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 4px;
+}
+.list-one__item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.33;
+  text-transform: uppercase;
+}
+
+.list-two__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+.list-two__link {
+  text-decoration: none;
+  color: var(--main-text-color);
+  font-size: 17px;
+  line-height: 0.9;
+}
+.list-two__link:hover, .list-two__link:focus {
+  color: var(--hover-color);
+}
+
+.column-two__title {
+  font-size: 31px;
+  line-height: 0.8;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  letter-spacing: 1.5px;
+}
+.column-two__subtitle {
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px var(--main-text-color);
+  font-size: 28px;
+  line-height: 0.8;
+  letter-spacing: 1.5px;
+}
+.column-two-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.second-column__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.skills-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.languages-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }/*# sourceMappingURL=main.css.map */

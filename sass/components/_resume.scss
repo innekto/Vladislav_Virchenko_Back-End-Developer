@@ -1,0 +1,160 @@
+.image-wrapper {
+    width: 242px;
+}
+
+
+.main-wrap {
+    padding-top: 51px;
+    padding-bottom: 150px;
+}
+
+.main-image {
+    margin-bottom: 32px;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.column-one {
+
+    // &__list-one {}
+
+    &__line {
+        display: block;
+        width: 100%;
+        height: 1px;
+        background-color: var(--main-text-color);
+        margin-bottom: 18px;
+    }
+
+    // &__list-two {}
+}
+
+.list-one {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+
+    &__item {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.33;
+        text-transform: uppercase;
+
+
+    }
+}
+
+.list-two {
+
+    &__item {
+
+
+
+        &:not(:last-child) {
+            margin-bottom: 10px;
+        }
+    }
+
+    &__link {
+        text-decoration: none;
+        color: var(--main-text-color);
+        font-size: 17px;
+        line-height: .9;
+
+
+        &:hover,
+        &:focus {
+            color: var(--hover-color);
+        }
+
+    }
+}
+
+.column-two {
+
+    &__title {
+        font-size: 31px;
+        line-height: .8;
+        text-transform: uppercase;
+        margin-bottom: 8px;
+        letter-spacing: 1.5px;
+    }
+
+    &__subtitle {
+
+        text-transform: uppercase;
+        color: transparent;
+        -webkit-text-stroke: 1px var(--main-text-color);
+        font-size: 28px;
+        line-height: .8;
+        letter-spacing: 1.5px;
+    }
+
+    &__first-column {}
+
+    &__second-column {}
+}
+
+.column-two-wrapper {
+    display: flex;
+}
+
+.first-column {
+
+    &__list {}
+
+    &__item {}
+
+    &__line {}
+
+    &__wrap {}
+
+    &__date {}
+
+    &__title {}
+
+    &__discription {}
+}
+
+.second-column {
+
+    &__list {
+        display: flex;
+    }
+
+    &__item {}
+
+    &__line {}
+}
+
+.skills-wrapper {
+    display: flex;
+}
+
+.hard-skills {
+
+    &__item {}
+}
+
+.soft-skills {
+
+    &__item {}
+}
+
+.languages {
+
+    &__item {}
+
+    &__list {}
+}
+
+.languages-list {
+    display: flex;
+
+    &__item {
+        // 
+    }
+}
