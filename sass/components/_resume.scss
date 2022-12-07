@@ -1,5 +1,5 @@
 .image-wrapper {
-    width: 242px;
+    width: 100%;
 }
 
 
@@ -18,7 +18,7 @@
 }
 
 .column-one {
-
+    width: 33.33%;
     // &__list-one {}
 
     &__line {
@@ -38,8 +38,8 @@
     margin-bottom: 4px;
 
     &__item {
-        font-weight: 400;
-        font-size: 16px;
+        font-weight: 500;
+        font-size: 18px;
         line-height: 1.33;
         text-transform: uppercase;
 
@@ -54,16 +54,17 @@
 
 
         &:not(:last-child) {
-            margin-bottom: 10px;
+            margin-bottom: 16px;
         }
     }
 
     &__link {
         text-decoration: none;
         color: var(--main-text-color);
-        font-size: 17px;
+        font-size: 12.5px;
         line-height: .9;
-
+        transition: color 250ms var(--cubik);
+        padding: 6px 0;
 
         &:hover,
         &:focus {
@@ -91,6 +92,7 @@
         font-size: 28px;
         line-height: .8;
         letter-spacing: 1.5px;
+        margin-bottom: 30px;
     }
 
     &__first-column {}
@@ -100,15 +102,32 @@
 
 .column-two-wrapper {
     display: flex;
+    gap: 20px;
+
 }
 
 .first-column {
+    width: calc((100% - 20px)/2);
 
-    &__list {}
+    &__list {
+        display: flex;
+        justify-content: space-between;
+    }
 
-    &__item {}
+    &__item {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 1.33;
+        text-transform: uppercase;
+    }
 
-    &__line {}
+    &__line {
+        display: block;
+        width: 100%;
+        height: 1px;
+        background-color: var(--main-text-color);
+        margin-bottom: 18px;
+    }
 
     &__wrap {}
 
@@ -120,18 +139,33 @@
 }
 
 .second-column {
+    width: calc((100% - 20px)/2);
 
     &__list {
         display: flex;
+        justify-content: space-between;
     }
 
-    &__item {}
+    &__item {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 1.33;
+        text-transform: uppercase;
 
-    &__line {}
+    }
+
+    &__line {
+        display: block;
+        width: 100%;
+        height: 1px;
+        background-color: var(--main-text-color);
+        margin-bottom: 18px;
+    }
 }
 
 .skills-wrapper {
     display: flex;
+    justify-content: space-around;
 }
 
 .hard-skills {

@@ -36,12 +36,12 @@ img {
 
 :root {
   --main-text-color: #101010;
-  --hover-color: #006360;
+  --hover-color: #006c58;
   --cubik: cubic-bezier(.51, 0, .54, .99);
 }
 
 .image-wrapper {
-  width: 242px;
+  width: 100%;
 }
 
 .main-wrap {
@@ -60,6 +60,9 @@ img {
   gap: 20px;
 }
 
+.column-one {
+  width: 33.33%;
+}
 .column-one__line {
   display: block;
   width: 100%;
@@ -78,20 +81,23 @@ img {
   margin-bottom: 4px;
 }
 .list-one__item {
-  font-weight: 400;
-  font-size: 16px;
+  font-weight: 500;
+  font-size: 18px;
   line-height: 1.33;
   text-transform: uppercase;
 }
 
 .list-two__item:not(:last-child) {
-  margin-bottom: 10px;
+  margin-bottom: 16px;
 }
 .list-two__link {
   text-decoration: none;
   color: var(--main-text-color);
-  font-size: 17px;
+  font-size: 12.5px;
   line-height: 0.9;
+  -webkit-transition: color 250ms var(--cubik);
+  transition: color 250ms var(--cubik);
+  padding: 6px 0;
 }
 .list-two__link:hover, .list-two__link:focus {
   color: var(--hover-color);
@@ -111,22 +117,70 @@ img {
   font-size: 28px;
   line-height: 0.8;
   letter-spacing: 1.5px;
+  margin-bottom: 30px;
 }
 .column-two-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  gap: 20px;
 }
 
+.first-column {
+  width: calc((100% - 20px) / 2);
+}
+.first-column__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.first-column__item {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.33;
+  text-transform: uppercase;
+}
+.first-column__line {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: var(--main-text-color);
+  margin-bottom: 18px;
+}
+.second-column {
+  width: calc((100% - 20px) / 2);
+}
 .second-column__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
+.second-column__item {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.33;
+  text-transform: uppercase;
+}
+.second-column__line {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: var(--main-text-color);
+  margin-bottom: 18px;
+}
+
 .skills-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .languages-list {
