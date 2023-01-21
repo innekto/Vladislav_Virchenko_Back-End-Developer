@@ -1,6 +1,5 @@
 body {
   font-family: "Chakra Petch", sans-serif;
-  background-color: #D2D4DA;
   color: var(--main-text-color);
 }
 
@@ -28,7 +27,6 @@ img {
 
 .container {
   margin: auto;
-  outline: 1px solid tomato;
   max-width: 595px;
   padding-left: 24px;
   padding-right: 24px;
@@ -47,6 +45,11 @@ img {
 .main-wrap {
   padding-top: 51px;
   padding-bottom: 150px;
+  width: 595px;
+  margin: auto;
+  background-color: #D2D4DA;
+  -webkit-box-shadow: 4px 4px 8px rgb(102, 123, 119);
+          box-shadow: 4px 4px 8px rgb(102, 123, 119);
 }
 
 .main-image {
@@ -136,6 +139,7 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-bottom: 4px;
 }
 .first-column__item {
   font-weight: 500;
@@ -150,6 +154,15 @@ img {
   background-color: var(--main-text-color);
   margin-bottom: 18px;
 }
+.first-column__wrap:not(:last-child) {
+  margin-bottom: 20px;
+}
+.first-column__date {
+  margin-bottom: 8px;
+}
+.first-column__title {
+  margin-bottom: 12px;
+}
 .second-column {
   width: calc((100% - 20px) / 2);
 }
@@ -160,6 +173,7 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-bottom: 4px;
 }
 .second-column__item {
   font-weight: 500;
@@ -181,10 +195,14 @@ img {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  margin-bottom: 12px;
 }
 
 .languages-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }/*# sourceMappingURL=main.css.map */

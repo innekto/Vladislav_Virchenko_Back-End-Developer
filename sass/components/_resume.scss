@@ -6,6 +6,10 @@
 .main-wrap {
     padding-top: 51px;
     padding-bottom: 150px;
+    width: 595px;
+    margin: auto;
+    background-color: #D2D4DA;
+    box-shadow: 4px 4px 8px rgb(102, 123, 119);
 }
 
 .main-image {
@@ -112,6 +116,7 @@
     &__list {
         display: flex;
         justify-content: space-between;
+        margin-bottom: 4px;
     }
 
     &__item {
@@ -129,11 +134,17 @@
         margin-bottom: 18px;
     }
 
-    &__wrap {}
+    &__wrap:not(:last-child) {
+        margin-bottom: 20px;
+    }
 
-    &__date {}
+    &__date {
+        margin-bottom: 8px;
+    }
 
-    &__title {}
+    &__title {
+        margin-bottom: 12px;
+    }
 
     &__discription {}
 }
@@ -144,6 +155,7 @@
     &__list {
         display: flex;
         justify-content: space-between;
+        margin-bottom: 4px;
     }
 
     &__item {
@@ -166,6 +178,7 @@
 .skills-wrapper {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 12px;
 }
 
 .hard-skills {
@@ -187,6 +200,7 @@
 
 .languages-list {
     display: flex;
+    justify-content: space-between;
 
     &__item {
         // 
