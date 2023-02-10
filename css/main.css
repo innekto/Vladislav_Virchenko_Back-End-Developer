@@ -54,6 +54,7 @@ img {
 
 .main-image {
   margin-bottom: 32px;
+  border-radius: 50%;
 }
 
 .container {
