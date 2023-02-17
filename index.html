@@ -4,141 +4,206 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Resume</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
-      rel="stylesheet"
-    />
-
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-    />
+    <title>Document</title>
     <link rel="stylesheet" href="./css/main.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Gantari:100,200,300,regular,500,600,700,800,900"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div class="main-wrap">
-      <div class="container">
-        <div class="column-one">
-          <div class="image-wrapper">
-            <img src="./images/i-am.jpg" alt="developer" class="main-image" />
+    <div class="resume">
+      <div class="container resume-container">
+        <div class="resume__left-side left-side">
+          <div class="resume__image-wrap">
+            <img
+              class="resume__image"
+              src="./images/i-am.jpg"
+              alt="developer"
+            />
           </div>
-          <ul class="column-one__list-one list-one">
-            <li class="list-one__item">Contacts</li>
-            <li class="list-one__item">01</li>
-          </ul>
-          <span class="column-one__line"></span>
-          <ul class="column-one__list-two list-two">
-            <li class="list-two__item">
-              <a
-                class="list-two__link"
-                href="https://github.com/innekto"
-                target="_blank"
-                >github.com</a
-              >
-            </li>
-            <li class="list-two__item">
-              <a
-                class="list-two__link"
-                target="_blank"
-                href="https://www.linkedin.com/in/vlad-virchenko-b2b065263/"
-                >linkedin.com</a
-              >
-            </li>
-            <li class="list-two__item">
-              <a
-                class="list-two__link"
-                target="_blank"
-                href="mailto:virchenko.vlad.2011@icloud.com"
-                >virchenko.vlad.2011@icloud.com</a
-              >
-            </li>
-            <li class="list-two__item">
-              <a class="list-two__link" href="tel:+380674595037"
-                >+38-067-459-50-37</a
-              >
-            </li>
-          </ul>
+          <div class="resume__contacts contacts">
+            <h2 class="contacts__title sub-title">contact information</h2>
+            <ul class="contacts__list left-list">
+              <li class="contacts__item">
+                <a
+                  target="_blank"
+                  href="mailto:virchenko.vlad.2011@icloud.com"
+                  class="contacts__link"
+                  >virchenko.vlad.2011@icloud.com</a
+                >
+              </li>
+              <li class="contacts__item">
+                <a
+                  class="contacts__link"
+                  href="https://github.com/innekto"
+                  target="_blank"
+                  >Github</a
+                >
+              </li>
+              <li class="contacts__item">
+                <a
+                  class="contacts__link"
+                  target="_blank"
+                  href="https://www.linkedin.com/in/vlad-virchenko/"
+                  >Linkedin</a
+                >
+              </li>
+              <li class="contacts__item">
+                <a class="contacts__link" href="tel:+380674595037"
+                  >+38-067-459-50-37</a
+                >
+              </li>
+              <li class="contacts__item">
+                <p class="contacts__aderss">Kharkiv, Ukraine</p>
+              </li>
+            </ul>
+          </div>
+          <div class="resume__tech-skills tech-skills">
+            <h2 class="tech-skills__title sub-title">tech-skills</h2>
+            <ul class="tech-skills__list left-list">
+              <li class="tech-skills__item">HTML/CSS/SASS</li>
+              <li class="tech-skills__item">Responsive/Adaptive design</li>
+              <li class="tech-skills__item">JavaScript</li>
+              <li class="tech-skills__item">GIT</li>
+              <li class="tech-skills__item">Parcel</li>
+              <li class="tech-skills__item">React</li>
+              <li class="tech-skills__item">REST API</li>
+            </ul>
+          </div>
+          <div class="resume__soft-skills soft-skills">
+            <h2 class="soft-skills__title sub-title">soft skills</h2>
+            <ul class="soft-skills__list left-list">
+              <li class="soft-skills__item">Stress Resistance</li>
+              <li class="soft-skills__item">Cooperative</li>
+              <li class="soft-skills__item">Eager to learn</li>
+              <li class="soft-skills__item">Punctual</li>
+            </ul>
+          </div>
+          <div class="resume__lang languages">
+            <h2 class="languages__title sub-title">languages</h2>
+            <ul class="languages__list left-list">
+              <li class="languages__item">Russian - Native</li>
+              <li class="languages__item">Ukrainian - Native</li>
+              <li class="languages__item">English - Beginner</li>
+            </ul>
+          </div>
         </div>
-        <div class="column-two">
-          <h1 class="column-two__title">
-            Vlad Virchenko<br />
-            <h2 class="column-two__subtitle">full stack developer</h2>
-          </h1>
-          <div class="column-two-wrapper">
-            <div class="column-two__first-column first-column">
-              <ul class="first-column__list">
-                <li class="first-column__item">courses</li>
-                <li class="first-column__item">02</li>
-              </ul>
-              <span class="first-column__line"></span>
-              <div class="first-column__wrap">
-                <p class="first-column__date">2022.09 - Present</p>
-                <h2 class="first-column__title">GoIT</h2>
-                <p class="first-column__discription">
-                  Learning to create websites and applications from scratch
-                </p>
-              </div>
-
-              <ul class="first-column__list">
-                <li class="first-column__item">experience</li>
-                <li class="first-column__item">03</li>
-              </ul>
-              <span class="first-column__line"></span>
-              <div class="first-column__wrap">
-                <p class="first-column__date">not yet</p>
-                <h2 class="first-column__title"></h2>
-                <p class="first-column__discription">
-                  <!-- Experience designing Android and iOS apps. An understanding of
-                  layout, typography and visual hierarchy. -->
-                </p>
-              </div>
+        <div class="resume__right-side right-side">
+          <div class="right-side__head">
+            <h1 class="right-side__title">vladislav <br />virchenko</h1>
+            <p class="right-side__descr">full stack developer</p>
+          </div>
+          <div class="right-side__section section">
+            <div class="section__sum summary">
+              <h2 class="summary__title sub-title">summary</h2>
+              <p class="summary__desc">
+                I am a Junior Full Stack developer.I focus on HTML5, CSS3, JS,
+                React.The most important thing for me is working for the result
+                and meeting the deadline. I always strive to learn new things
+                and solve new problems for me.
+              </p>
             </div>
-            <div class="column-two__second-column second-column">
-              <ul class="second-column__list">
-                <li class="second-column__item">skills</li>
-                <li class="second-column__item">04</li>
-              </ul>
-              <span class="second-column__line"></span>
-              <div class="skills-wrapper">
-                <ul class="hard-skills">
-                  <li class="hard-skills__item">HTML</li>
-                  <li class="hard-skills__item">CSS</li>
-                  <li class="hard-skills__item">JS</li>
-                </ul>
-                <ul class="soft-skills">
-                  <li class="soft-skills__item">Adaptability</li>
-                  <li class="soft-skills__item">Compromise</li>
-                  <li class="soft-skills__item">Hearing</li>
-                  <li class="soft-skills__item">Positive</li>
-                  <li class="soft-skills__item">Compromise</li>
-                </ul>
-              </div>
-              <ul class="second-column__list">
-                <li class="second-column__item">languages</li>
-                <li class="second-column__item">05</li>
-              </ul>
-              <span class="second-column__line"></span>
-              <ul class="languages">
-                <li class="languages__item">
-                  <ul class="languages__list languages-list">
-                    <li class="languages-list__item">english</li>
-                    <li class="languages-list__item">А1</li>
-                  </ul>
+            <div class="section__proj-exp proj-exp">
+              <h2 class="proj-exp__title sub-title">project experience</h2>
+              <ul class="proj-exp__list">
+                <li class="proj-exp__item">
+                  <div class="proj-exp__wrap">
+                    <a
+                      class="proj-exp__link"
+                      href="https://innekto.github.io/goit-markup-hw-08/"
+                      target="_blank"
+                      >Web Studio</a
+                    >
+                    <span class="proj-exp__dot"
+                      >....................................</span
+                    >
+                    <a
+                      href="https://github.com/innekto/goit-markup-hw-08"
+                      target="_blank"
+                      class="proj-exp__link"
+                      ><svg class="proj-exp__icon" width="24" height="24">
+                        <use
+                          href="./images/symbol-defs.svg#icon-iconmonstr-github-5"
+                        ></use>
+                      </svg>
+                    </a>
+                  </div>
+                  <p class="proj-exp__stack">[HTML, SCSS, JS]</p>
+                  <p class="proj-exp__text">
+                    A website with a responsive layout. Role: Developer.
+                  </p>
                 </li>
-                <li class="languages__item">
-                  <ul class="languages__list languages-list">
-                    <li class="languages-list__item">russian</li>
-                    <li class="languages-list__item">C2</li>
-                  </ul>
+                <li class="proj-exp__item">
+                  <div class="proj-exp__wrap">
+                    <a
+                      class="proj-exp__link"
+                      href="https://vnko1.github.io/fs67-project16/"
+                      target="_blank"
+                      >Shop For Gamers</a
+                    >
+                    <span class="proj-exp__dot"
+                      >....................................</span
+                    >
+                    <a
+                      href="https://github.com/vnko1/fs67-project16"
+                      target="_blank"
+                      class="proj-exp__link"
+                      ><svg class="proj-exp__icon" width="24" height="24">
+                        <use
+                          href="./images/symbol-defs.svg#icon-iconmonstr-github-5"
+                        ></use>
+                      </svg>
+                    </a>
+                  </div>
+                  <p class="proj-exp__stack">[HTML, SCSS, JS, Parsel]</p>
+                  <p class="proj-exp__text">
+                    Command project,a website with a responsive layout. Role:
+                    Scrum, Developer.
+                  </p>
                 </li>
-                <li class="languages__item">
-                  <ul class="languages__list languages-list">
-                    <li class="languages-list__item">ukrainian</li>
-                    <li class="languages-list__item">В2</li>
-                  </ul>
+                <li class="proj-exp__item">
+                  <div class="proj-exp__wrap">
+                    <a
+                      class="proj-exp__link"
+                      href="https://innekto.github.io/goit-markup-hw-08/"
+                      target="_blank"
+                      >Web Studio</a
+                    >
+                    <span class="proj-exp__dot"
+                      >....................................</span
+                    >
+                    <a
+                      href="https://github.com/innekto/goit-markup-hw-08"
+                      target="_blank"
+                      class="proj-exp__link"
+                      ><svg class="proj-exp__icon" width="24" height="24">
+                        <use
+                          href="./images/symbol-defs.svg#icon-iconmonstr-github-5"
+                        ></use>
+                      </svg>
+                    </a>
+                  </div>
+                  <p class="proj-exp__stack">[HTML, SCSS, JS]</p>
+                  <p class="proj-exp__text">
+                    A website with a responsive layout. Role: Developer.
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div class="section__education education">
+              <h2 class="education__title sub-title">education</h2>
+              <ul class="education__list">
+                <li class="education__item education-item">
+                  <h3 class="education-item__title">IT School GoIT (Kyiv)</h3>
+                  <p class="education-item__text">2022-2023</p>
+                  <p class="education-item__text">Full-Stack Developer</p>
+                </li>
+                <li class="education__item education-item">
+                  <h3 class="education-item__title">
+                    National Aerospace University «Kharkiv Aviation Institute».
+                  </h3>
+                  <p class="education-item__text">2004-2006</p>
                 </li>
               </ul>
             </div>
