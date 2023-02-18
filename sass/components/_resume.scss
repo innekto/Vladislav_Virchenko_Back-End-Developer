@@ -18,7 +18,7 @@
 
     &__image-wrap {
         margin-bottom: 60px;
-        width: 300px;
+        width: 250px;
     }
 
     &__image {}
@@ -53,7 +53,13 @@
         font-size: 17px;
     }
 
-    &__link {}
+    &__link {
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+        &:hover {
+            color: rgb(255, 255, 255);
+        }
+    }
 
     &__aderss {}
 }
@@ -200,8 +206,10 @@
     &__stack {}
 
     &__link {
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
         &:hover {
-            color: rgb(0, 110, 130);
+            color: rgb(1, 150, 177);
         }
     }
 

@@ -74,7 +74,7 @@ button {
 }
 .resume__image-wrap {
   margin-bottom: 60px;
-  width: 300px;
+  width: 250px;
 }
 .contacts {
   margin-bottom: 36px;
@@ -85,6 +85,13 @@ button {
 .contacts__item {
   font-weight: 300;
   font-size: 17px;
+}
+.contacts__link {
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contacts__link:hover {
+  color: rgb(255, 255, 255);
 }
 .sub-title {
   text-transform: uppercase;
@@ -194,8 +201,12 @@ button {
           flex-direction: column;
   gap: 3px;
 }
+.proj-exp__link {
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .proj-exp__link:hover {
-  color: rgb(0, 110, 130);
+  color: rgb(1, 150, 177);
 }
 .proj-exp__icon {
   fill: currentColor;
