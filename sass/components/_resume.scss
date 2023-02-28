@@ -139,7 +139,7 @@
         font-size: 55px;
         font-weight: 800;
         line-height: 1.12;
-        letter-spacing: 4px;
+        letter-spacing: 8px;
         text-transform: uppercase;
 
         margin-bottom: 8px;
@@ -155,7 +155,7 @@
 
     &__section {
 
-        padding: 20px 40px 20px 20px;
+        padding: 20px 30px 20px 20px;
     }
 }
 
@@ -175,7 +175,7 @@
 
     &__desc {
         font-size: 22px;
-        line-height: 1.2;
+        line-height: 1.4;
         font-weight: 300;
     }
 }
@@ -198,7 +198,7 @@
     &__item {
         display: flex;
         flex-direction: column;
-        gap: 3px;
+        gap: 6px;
     }
 
     &__dot {}
