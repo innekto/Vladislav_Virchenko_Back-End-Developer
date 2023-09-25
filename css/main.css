@@ -5,7 +5,7 @@
   margin: 0;
   border: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -58,7 +58,7 @@ button {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-shadow: 5px 4px 13px -6px rgb(42, 139, 224);
-          box-shadow: 5px 4px 13px -6px rgb(42, 139, 224);
+  box-shadow: 5px 4px 13px -6px rgb(42, 139, 224);
 }
 
 .resume {
@@ -138,8 +138,8 @@ button {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   gap: 4px;
 }
 
@@ -187,8 +187,8 @@ button {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   gap: 20px;
 }
 .proj-exp__item {
@@ -197,8 +197,8 @@ button {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   gap: 6px;
 }
 .proj-exp__link {
@@ -233,8 +233,8 @@ button {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   gap: 20px;
 }
 .education__item {
@@ -243,12 +243,12 @@ button {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   gap: 3px;
 }
 
 :root {
   --main-back-color: rgb(148, 188, 172);
   --text-color: rgba(0, 0, 0, 0.858);
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */
