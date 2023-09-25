@@ -204,6 +204,7 @@ button {
 .proj-exp__link {
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-weight: 400;
 }
 .proj-exp__link:hover {
   color: rgb(1, 150, 177);
