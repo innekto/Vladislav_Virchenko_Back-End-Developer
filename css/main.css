@@ -5,7 +5,7 @@
   margin: 0;
   border: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -27,6 +27,7 @@ li {
 img {
   display: block;
   width: 100%;
+  border-radius: 8px;
 }
 
 h1,
@@ -58,7 +59,7 @@ button {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-shadow: 5px 4px 13px -6px rgb(42, 139, 224);
-  box-shadow: 5px 4px 13px -6px rgb(42, 139, 224);
+          box-shadow: 5px 4px 13px -6px rgb(42, 139, 224);
 }
 
 .resume {
@@ -69,11 +70,11 @@ button {
 .resume__left-side {
   padding: 50px 0;
   background-color: var(--main-back-color);
-  padding-right: 80px;
+  padding-right: 50px;
   padding-left: 50px;
 }
 .resume__image-wrap {
-  margin-bottom: 60px;
+  margin: auto auto 60px auto;
   width: 250px;
 }
 .contacts {
@@ -138,8 +139,8 @@ button {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   gap: 4px;
 }
 
@@ -169,6 +170,7 @@ button {
   margin-bottom: 30px;
 }
 .summary__desc {
+  text-indent: 20px;
   font-size: 22px;
   line-height: 1.4;
   font-weight: 300;
@@ -187,8 +189,8 @@ button {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   gap: 20px;
 }
 .proj-exp__item {
@@ -197,8 +199,8 @@ button {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   gap: 6px;
 }
 .proj-exp__link {
@@ -233,8 +235,8 @@ button {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   gap: 20px;
 }
 .education__item {
@@ -243,12 +245,12 @@ button {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   gap: 3px;
 }
 
 :root {
   --main-back-color: rgb(148, 188, 172);
   --text-color: rgba(0, 0, 0, 0.858);
-} /*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
